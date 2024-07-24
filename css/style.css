@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Courgette&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+#catalogo{
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+
+#menu-inicio{
+    background-color: lightgray;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: purple;
+    font-family: "Courgette", cursive;
+    font-style: normal;
+    text-align: center;
+    font-size: 75px;
+}
+
+h2{
+    text-align: center, justify;
+    font-family: "Jost";
+    font-style: normal;
+    font-size: 30px;
+}
+
+p{
+    text-align: center, justify;
+    font-family: "Wix Madefor Text";
+    font-style: normal;
+    font-size: 25px;
+}
+
+.container{
+    align-content: center;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 550px;
+    width: 550px;
+}
+
+div{
+    align-content: center;
+    text-align: center;
+}
+
+button{
+    color: black;
+    font-family: "Atkinson Hyperlegible";
+    font-style: normal;
+    text-align: center;
+    font-size: 15px;
+}
+
+.sinopsis{
+    text-align: center, justify;
+    font-family: "Outfit";
+    font-style: normal;
+    font-size: 22px;
+}
+
+.precio{
+    text-align: center, justify;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-size: 25px;
+}
